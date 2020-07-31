@@ -64,7 +64,7 @@ body {
   margin: 10px auto;
   position: relative;
   /*filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));*/
-  transform: translateY(calc(50% - 10px));
+  transform: translateY(calc(50% - 50px));
 }
 
 .card__figure {
@@ -327,35 +327,36 @@ body {
 </div>
 <div class="col-lg-6">
     <h4><strong>Preview The Credit Card</strong></h4>
-     <br><br>
-  
-  <div class="image_wrapper">
    <div class="card" id="cardHolder" style="background-color: transparent;">
+     
       <figure class="card__figure">
         <img crossorigin="anonymous" src="{{ asset('image/nu-white.png') }}" class="card__figure--logo"></img>
       </figure>
+   
     <div class="card__reader">
       <div class="card__reader--risk card__reader--risk-one"></div>
       <div class="card__reader--risk card__reader--risk-two"></div>
        <div class="card__reader--risk card__reader--risk-three"></div>
       <div class="card__reader--risk card__reader--risk-four"></div>
     </div>
+
     <p class="card__number">5032 9334 3764 9846</p>
     <div class="card__dates">
       <span class="card__dates--first">09/16</span>
       <span class="card__dates--second">09/19</span>
     </div>
+   
     <p class="card__name">David FERREIRA<p>
     <div class="card__flag">
       <div class="card__flag--red"></div>
        <div class="card__flag--yellow"></div>
     </div>
+   
     </div>
     <div class="assign">
     
     </div>   
-    
-  </div>
+
 <br>
 <button id="Screenshot" class="btn btn-success mt-2 pt-2">Save Image</button>
 
@@ -379,7 +380,7 @@ body {
                 if (placeToInsertImagePreview == '.card') {
                   $(placeToInsertImagePreview).css({"background-image": "url(" + event.target.result + ")",
                     "object-fit" : "cover","background-size": "cover","background-repeat":"no-repeat",
-    "background-position": "center"});
+                    "background-position": "center"});
 
                 }
                 else

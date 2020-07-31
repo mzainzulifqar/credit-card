@@ -322,7 +322,7 @@ body {
         </div>
 
 
-        <button type="submit" class="btn btn-success">Submit</button>
+        {{-- <button type="submit" class="btn btn-success">Submit</button> --}}
     </form>
 </div>
 <div class="col-lg-6">
@@ -357,7 +357,7 @@ body {
     
   </div>
 <br>
-<button id="Screenshot" class="btn btn-success mt-2 pt-2">Take Screenshot</button>
+<button id="Screenshot" class="btn btn-success mt-2 pt-2">Save Image</button>
 
 </div>
 </div>

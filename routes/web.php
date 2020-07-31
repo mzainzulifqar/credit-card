@@ -15,4 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 
 });
+
+Route::get('/test',function(){
+	
+});
+
+Route::get('template',function(){
+	return view('template_gallery');
+});
 Route::get('/creditCardDesign', ['as' => 'creditCardDesign' , 'uses' => 'WebController@creditCardDesign']);

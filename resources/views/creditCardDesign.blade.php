@@ -22,7 +22,7 @@
               //     saveAs(blob, "Dashboard.png"); 
               // });
                // console.log(canvas.toDataURL());
-               saveAs(canvas.toDataURL(), "Dashboard.png"); 
+               saveAs(canvas.toDataURL(), "credit-card.png"); 
           });
       });
     });
